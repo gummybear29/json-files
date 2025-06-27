@@ -1,0 +1,68 @@
+{
+    "models": [
+        {
+            "name": "Gemma-3n-E2B-it-int4",
+            "key1": "x30iq9nm50leqyhhzpivl",
+            "key2": "n0w2vt3k8c029r2yxr7ohlpoe&st=3t5cw1sg",
+            "modelFile": "gemma-3n-E2B-it-int4.task",
+            "description": " ",
+            "sizeInBytes": 3136226711,
+            "estimatedPeakMemoryInBytes": 5905580032,
+            "version": "20250520",
+            "llmSupportImage": true,
+            "defaultConfig": {
+                "topK": 64,
+                "topP": 0.95,
+                "temperature": 1.0,
+                "maxTokens": 4096,
+                "accelerators": "cpu,gpu"
+            },
+            "taskTypes": [
+                "llm_chat",
+                "llm_ask_image"
+            ]
+        },
+        {
+            "name": "Gemma-3n-E4B-it-int4",
+            "key1": "ptyzvm7akbtvo02si2wj9",
+            "key2": "a9uzk4p5hipige9siboxbfh9w&st=kawl9rgf",
+            "modelFile": "gemma-3n-E4B-it-int4.task",
+            "description": " ",
+            "sizeInBytes": 4405655031,
+            "estimatedPeakMemoryInBytes": 6979321856,
+            "version": "20250520",
+            "llmSupportImage": true,
+            "defaultConfig": {
+                "topK": 64,
+                "topP": 0.95,
+                "temperature": 1.0,
+                "maxTokens": 4096,
+                "accelerators": "cpu,gpu"
+            },
+            "taskTypes": [
+                "llm_chat",
+                "llm_ask_image"
+            ]
+        },
+        {
+            "name": "Gemma3-1B-IT q4",
+            "key1": "m7yd9m09oy907ohzisykq",
+            "key2": "v2brle8b0emjdap0za4itti55&st=4wvtu9i1",
+            "modelFile": "Gemma3-1B-IT_multi-prefill-seq_q4_ekv2048.task",
+            "description": " ",
+            "sizeInBytes": 554661246,
+            "estimatedPeakMemoryInBytes": 2147483648,
+            "version": "20250514",
+            "defaultConfig": {
+                "topK": 64,
+                "topP": 0.95,
+                "temperature": 1.0,
+                "maxTokens": 1024,
+                "accelerators": "cpu"
+            },
+            "taskTypes": [
+                "llm_chat"
+            ]
+        }
+    ]
+}
