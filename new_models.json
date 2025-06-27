@@ -1,0 +1,23 @@
+{
+    "models": [
+        {
+            "name": "Gemma3-1B-IT q4",
+            "modelId": "litert-community/Gemma3-1B-IT",
+            "modelFile": "Gemma3-1B-IT_multi-prefill-seq_q4_ekv2048.task",
+            "description": " ",
+            "sizeInBytes": 554661246,
+            "estimatedPeakMemoryInBytes": 2147483648,
+            "version": "20250514",
+            "defaultConfig": {
+                "topK": 64,
+                "topP": 0.95,
+                "temperature": 1.0,
+                "maxTokens": 1024,
+                "accelerators": "cpu"
+            },
+            "taskTypes": [
+                "llm_chat"
+            ]
+        }
+    ]
+}
